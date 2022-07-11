@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "static-website-nodejs",
+  "version": "1.0.0",
+  "main": "static_website.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"node static_website.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
