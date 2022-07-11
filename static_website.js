@@ -1,8 +1,9 @@
-const PORT= process.env.PORT ||4500;
+const PORT= process.env.PORT || 4500;
 
 const express = require('express');
 
 const app = express();
+app.set('view engine','view')
 
 const path= require('path');
 const staticFolder=path.join(__dirname,'./family');
