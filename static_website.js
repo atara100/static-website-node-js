@@ -17,4 +17,4 @@ app.use(express.static(staticFolder));
 
 app.listen(PORT, ()=>{
     console.log(`server is up on port ${PORT}✨.`);
-})
+});
